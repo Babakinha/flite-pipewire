@@ -1,3 +1,16 @@
+# About this Fork
+So, i was playing minecraft and noticed the narrator wasnt working  
+After some debugging i noticed that flite doesnt work with pipewire  
+_(bcs it uses the default alsa device)_  
+  
+So i just changed the device flite uses, and shabam, it works  
+
+Just [compile it](#compilation) and do:  
+```
+sudo make install
+```
+Hope this helps :3  
+# Flite
 
          Flite: a small run-time speech synthesis engine
                       version 2.1-release
