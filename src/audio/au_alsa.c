@@ -54,7 +54,7 @@
 #include <alsa/asoundlib.h>
 
 /*static char *pcm_dev_name = "hw:0,0"; */
-static const char *pcm_dev_name ="default";
+static const char *pcm_dev_name ="pipewire";
 
 static inline void print_pcm_state(snd_pcm_t *handle, char *msg)
 {
