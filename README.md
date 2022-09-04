@@ -5,10 +5,9 @@ _(bcs it uses the default alsa device)_
   
 So i just changed the device flite uses, and shabam, it works  
 
-Just [compile it](#compilation) and do:  
-```
-sudo make install
-```
+Some tinkering was required for me to install it  
+see [compilation](#compilation), and [the arch repo](https://archlinux.org/packages/community/x86_64/flite/) ([pkgbuild](https://github.com/archlinux/svntogit-community/blob/packages/flite/trunk/PKGBUILD)), they might help you figure it out  
+  
 Hope this helps :3  
 # Flite
 
